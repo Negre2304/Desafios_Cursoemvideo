@@ -1,0 +1,32 @@
+body {    /* Corpo */
+    background: rgb(70, 142, 236); /* Cor do Fundo */
+    font: normal 15pt Arial; /* Font das Letras */
+}
+
+header { /* Cabeçalho */
+    color: white; /* Cor */
+    text-align: center; /* Alinha o texto*/
+}
+
+section { /* Seção */
+    background: white; /* Cor do Fundo */
+    border-radius: 10px; /* Contorno da Borda */
+    padding: 15px; /* Espaçamento */
+    width: 500px; /* Largura */
+    height: 200px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363); /* Sombra da caixa*/
+    display: flex;
+    justify-content: center;
+}
+
+#botoes {
+
+    padding: 15px;
+    margin: auto;
+}
+footer {
+    color: white; /* Cor */
+    text-align: center; /* Alinha o texto*/
+    font-style: italic; /* Estilo da Fonte*/
+}
